@@ -35,13 +35,13 @@
 #### 主要方法
 
 
-- `detect_peaks_and_contours(self)`: 检测峰和轮廓。
-- `display_roi_segmentation_detail(self, riinfo_entry)`: 显示 ROI 分割详情。
-- `load_cdf_file(self)`: 加载 CDF 文件。
-- `load_cnn_model(self, weight_path)`: 加载 CNN 模型。
-- `load_yolo_model(self, weight_path)`: 加载 YOLO 模型。
-- `perform_yolo_segmentation(self, mask_info_entry)`: 执行 YOLO 分割。
-- `apply_models(self, mask_data)`: 应用模型。
+- `detect_peaks_and_contours()`: 检测峰和轮廓。
+- `display_roi_segmentation_detail()`: 显示 ROI 分割详情。
+- `load_cdf_file()`: 加载 CDF 文件。
+- `load_cnn_model()`: 加载 CNN 模型。
+- `load_yolo_model()`: 加载 YOLO 模型。
+- `perform_yolo_segmentation()`: 执行 YOLO 分割。
+- `apply_models()`: 应用模型。
 
 ### `ReadCdf`
 
@@ -49,10 +49,10 @@
 
 #### 方法
 
-- `drift_time(self)`: 计算漂移时间。
-- `interp(self, save_csv=False, saveheatmap=True, mod_time=None, drifttime=None)`: 插值处理。
-- `modulation_time(self, threshold=1e5, window_size=100)`: 获取调制时间。
-- `scan_duration(self)`: 获取扫描时间。
+- `drift_time()`: 计算漂移时间。
+- `interp()`: 插值处理。
+- `modulation_time()`: 获取调制时间。
+- `scan_duration()`: 计算扫描时间。
 
 ## 使用方法
 
