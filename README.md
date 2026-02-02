@@ -59,12 +59,12 @@ This class is used for reading and processing chromatogram data files in CDF for
 
 To use the graphical user interface, run the `gui_peak_detection_CNN_YOLO.py` script. The interface will allow you to load CDF files, select model weights, adjust parameters, and view detection results.
 
-![Load CDF file](.\img\加载cdf文件.png)
+![Load CDF file](./img/加载cdf文件.png)
 
 Click on peak detection for preliminary contour detection and to construct the contour heat map (ROIs):
 
-![Construct contour heat map (ROIs)](.\img\构建轮廓热图.png)
+![Construct contour heat map (ROIs)](./img/构建轮廓热图.png)
 
 Select the classification model weights and YOLO segmentation model weights to automatically perform contour classification and segmentation. The results are as follows:
 
-![Final result](.\img\最终结果.png)
+![Final result](./img/最终结果.png)
